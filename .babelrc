@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    "inline-dotenv",
+    [
+      "module-resolver",
+      {
+        "root": [ "./src" ],
+        "alias": {
+          "@Src": "./src",
+          "@Components": "./src/components",
+          "@Containers": "./src/containers",
+          "@Pages": "./pages",
+          "@Actions": "./src/redux/actions",
+          "@Static": "./public/static",
+          "@Images": "./public/images",
+          "@Public": "./public",
+          "@Libs": "./src/libs"
+        }
+      }
+    ]
+  ]
+}
