@@ -1,9 +1,13 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
+
+import styleHead from "@Styles/containers/header.module.scss";
+import Icon from "@Components/iconsSprite";
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className={styleHead.header}>
             Header
+            <Icon svgId='youtube' />
         </header>
     )
 }

@@ -17,7 +17,8 @@
           "@Static": "./public/static",
           "@Images": "./public/images",
           "@Public": "./public",
-          "@Libs": "./src/libs"
+          "@Libs": "./src/libs",
+          "@Styles": "./public/styles"
         }
       }
     ]
